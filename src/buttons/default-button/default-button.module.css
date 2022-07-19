@@ -1,0 +1,68 @@
+.defaultButton {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    transition: 300ms;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 156px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    text-transform: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.defaultButton:disabled {
+    background-color: var(--lighter-grey) !important;
+    color: var(--white) !important;
+    cursor: default;
+}
+.defaultButton:hover {
+    opacity: .7;
+    backdrop-filter: blur(3px);
+}
+
+.defaultButton:active {
+    box-shadow: 1px 1px 2px var(--black-alpha-6) inset;
+}
+
+.defaultButton:focus {
+    box-shadow: 0 0 0 2px var(--black-alpha-2);
+}
+
+.default {
+    background-color: var(--bg-lighter-grey);
+    color: var(--dark-grey);
+}
+
+.danger {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.danger:focus {
+    box-shadow: 0 0 0 2px var(--red-alpha-25);
+}
+
+.danger-outlined {
+    background-color: transparent;
+    color: var(--red);
+}
+
+.danger-outlined:focus {
+    box-shadow: 0 0 0 2px var(--white-alpha-2);
+}
+
+.success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.success:focus {
+    box-shadow: 0 0 0 2px var(--success-alpha-25);
+}

@@ -1,0 +1,48 @@
+.dateData {
+    height: 100%;
+    min-height: 45px;
+    min-width: 45px;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    visibility: visible;
+}
+.firstTime{
+    animation: show 300ms linear;
+
+}
+@keyframes show {
+    from {
+        visibility: hidden;
+        opacity: 0;
+        background-color: var(--white);
+        color: var(--white);
+    }
+
+}
+
+
+.elegido {
+    border: 1px solid var(--white);
+    background-color: var(--red);
+    color: white;
+}
+
+.hover {
+    background-color: var(--white) !important;
+    color: var(--red) !important;
+    border: 1px solid var(--red)!important;
+
+}
+
+
+.suelto {
+    border: 1px solid var(--border-light-grey);
+}
+
+.today {
+    border: 1px solid var(--red)!important;
+    background-color: var(--white);
+    color: var(--red);
+}

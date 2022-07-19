@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+:root {
+    --red: #A92926;
+    --hover-red: #F2475B;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-white: #fcfcfc;
+    --darked-white: #DDDDDD;
+    --bg-lighter-grey: #F7F7F7;
+    --bg-light-grey: rgba(236, 236, 236, 0.42);
+    --lighter-grey: #eaeaea;
+    --light-grey: #9EA2AA;
+    --grey: #6B6F77;
+    --dark-grey: #343740;
+    --darked-grey: #9d9d9d;
+    --darked: #1d1e23;
+    --border-light-grey: #e7e7e7;
+    --blue: #195b6c;
+    --hover-blue: #1f7287;
+    --lighter-blue: #8fabb8;
+    --light-blue: #2c9ab6;
+    --bsod: #0414a7;
+    --link: #2cabc7;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    --warning: orange;
+    --warning-hover: #ffb123;
+    --success: forestgreen;
+    --success-hover: #28a728;
+    --info: #33fff8;
+
+    --white-alpha-08: rgba(255, 255, 255, 0.08);
+    --white-alpha-2: rgba(255, 255, 255, 0.2);
+    --white-alpha-4: rgba(255, 255, 255, 0.4);
+    --white-alpha-6: rgba(255, 255, 255, 0.6);
+
+    --success-alpha-25: rgba(34, 139, 34, 0.25);
+
+    --red-alpha-6: rgba(169, 41, 38, 0.6);
+    --red-alpha-25: rgba(169, 41, 38, 0.25);
+    --red-alpha-06: rgba(169, 41, 38, 0.06);
+    --red-alpha-08: rgba(169, 41, 38, 0.08);
+
+    --black-alpha-8: rgba(0, 0, 0, .8);
+    --black-alpha-6: rgba(0, 0, 0, .6);
+    --black-alpha-4: rgba(155, 155, 155, 0.4);
+    --black-alpha-3: rgba(0, 0, 0, .3);
+    --black-alpha-2: rgba(0, 0, 0, .2);
+    --black-alpha-18: rgba(0, 0, 0, .18);
+    --black-alpha-08: rgba(0, 0, 0, .08);
+    --black-alpha-06: rgba(0, 0, 0, 0.06);
+    --black-alpha-05: rgba(0, 0, 0, 0.05);
+    --black-alpha-04: rgba(0, 0, 0, .04);
+    --black-alpha-02: rgba(0, 0, 0, .02);
+
+    --blue-alpha-04: rgba(25, 91, 108, 0.04);
+    --darked-grey-alpha-08: rgba(52, 55, 63, 0.08);
+    --darked-grey-alpha-8: rgba(52, 55, 63, 0.8);
+
+    --red-alpha-04: rgba(220, 0, 26, 0.04);
+
+    --facebook: #1877F2;
+    --instagram: linear-gradient(25deg, #4B7AF0, #D150A7);
+    --linkedIn: #0A66C2;
+    --twitter: #1D9BF0;
+    --google: #7E57C2;
 }
